@@ -6,6 +6,7 @@ import re
 
 GITHUB_URL = 'https://github.com'
 
+
 class Repository(object):
 
 	@classmethod
