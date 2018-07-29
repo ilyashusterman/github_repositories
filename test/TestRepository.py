@@ -13,3 +13,4 @@ class TestRepository(TestCase):
 		self.repository.load()
 		self.assertEqual(self.repository.contributors, 1)
 		self.assertEqual(self.repository.commits, 46)
+		self.assertEqual(self.repository.issues, 0)
